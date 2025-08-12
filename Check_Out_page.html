@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haven Home</title>
+    <!-- --Main css file --  -->
+    <link rel="stylesheet" href="css/Furniture.css" />
+
+    <!-- --Logo img --  -->
+    <link rel="icon" href="img/logo.jpg" type="image/jng" />
+
+    <!-- --FontAwsome CDN  --  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- ---Swiper link ---- -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!----- start Cart part ----->
+    <div class="addcart">
+      <div class="top_part">
+        <h2>Items Cart : <span class="count_item_cart">0</span></h2>
+        <i class="fa-solid fa-circle-xmark close_cart btn_sound"></i>
+      </div>
+      <div class="cart_box" id="cart_items"></div>
+      <div class="close_cart22">
+        <h2>Total price : <span class="price_cart_total">0</span></h2>
+        <div class="cart_bottom">
+          <h2 class="close_cart btn_sound">Shop More</h2>
+          <h2>Check out</h2>
+        </div>
+      </div>
+    </div>
+    <!----- End Cart part ----->
+    <!----- Start Furniture Page----->
+    <div class="furniture_page">
+      <div class="container">
+        <!----- start nav ---->
+        <div class="top_nav">
+          <div class="logo">
+            <a href="#"><img src="img/logo_name.JPG" alt="" /></a>
+          </div>
+          <div class="nav_links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#feature">Feature</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#new_product">New</a></li>
+              <li><a href="#our_discount">Our Discount</a></li>
+            </ul>
+          </div>
+          <div class="icon">
+            <div class="icon_1">
+              <i class="fa-solid fa-cart-shopping open_cart btn_sound"></i
+              ><span class="count_item_header open_cart">0</span>
+            </div>
+            <div class="icon_1"></div>
+          </div>
+        </div>
+        <!----- end nav ---->
+        <!-----Start Check out page ---->
+        <div class="checkout">
+          <form id="orderForm">
+            <div class="container">
+              <div class="ordersummary">
+                <h1>Order Summary</h1>
+                <div class="item" id="check_out_item"></div>
+                <div class="botton_summary">
+                  <div class="shop_table">
+                    <p>subtotal</p>
+                    <span class="subtotal_checkout">$322</span>
+                  </div>
+                  <div class="shop_table">
+                    <p>Delivery</p>
+                    <span class="subtotal_checkout">20 $</span>
+                  </div>
+                  <div class="shop_table">
+                    <p>Total</p>
+                    <span class="total_checkout">$322</span>
+                  </div>
+
+                  <div class="button_div">
+                    <button type="submit">Place Order</button>
+                  </div>
+                </div>
+              </div>
+              <div class="input_info">
+                <div class="address">
+                  <h2>Delivery Address</h2>
+                  <div class="inputs">
+                    <label for="">Email</label>
+                    <input
+                      type="Email"
+                      placeholder="Enter Your Email "
+                      required
+                      name="Email"
+                      id="email"
+                    />
+                    <label for="">Name</label>
+                    <input
+                      type="text"
+                      placeholder="Enter Your ur Name "
+                      required
+                      name="name"
+                      id="name"
+                    />
+                    <label for="">Adress</label>
+                    <input
+                      type="text"
+                      placeholder="Enter Your Adress "
+                      required
+                      name="Address"
+                      id="address"
+                    />
+                    <label for="">Phone</label>
+                    <input
+                      type="number"
+                      placeholder="Enter Your Phone Number "
+                      required
+                      name="phone"
+                      id="phone"
+                    />
+                  </div>
+                  <div class="bottom">
+                    <h4>
+                      We will contact you at least 20 minutes after the order is
+                      sent
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-----End Check out page ---->
+        <!----- Start Pay Section ----->
+        <div class="pay_sec">
+          <a href="#" class="img"><img src="img/visa.svg" alt="" /></a>
+          <a href="#" class="img"><img src="img/paypal.jpg" alt="" /></a>
+          <a href="#" class="img"><img src="img/mada.png" alt="" /></a>
+          <a href="#" class="img"><img src="img/stripe.png" alt="" /></a>
+          <a href="#" class="img"><img src="img/fawry.jpg" alt="" /></a>
+        </div>
+        <!-----End Pay Section ----->
+        <!-----Start Footer Section ----->
+        <div class="footer">
+          <div class="footer_top">
+            <div class="footer_box">
+              <h3>Informatione</h3>
+              <h5>Shipping & Delivery</h5>
+              <h5>Return Policy</h5>
+              <h5>FAQs</h5>
+              <h5>Terms & Conditions</h5>
+            </div>
+
+            <div class="footer_middel_box">
+              <div class="upper">
+                <div class="imge">
+                  <img src="img/logo_name.JPG" alt="" />
+                </div>
+                <h3>Global Quality</h3>
+              </div>
+              <div class="lower">
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+              </div>
+            </div>
+
+            <div class="footer_box">
+              <h3>About Us</h3>
+              <h5>Our Stor</h5>
+              <h5>Why Choose Us</h5>
+              <h5>low Time</h5>
+              <h5>Our Team</h5>
+            </div>
+          </div>
+          <div class="footer_bottom">
+            <a href="#">@Abdallah-52013-Eid@gmail.com</a>
+          </div>
+        </div>
+        <!-----End Footer Section ----->
+      </div>
+    </div>
+    <!----- End Furniture Page ----->
+    <!----- -add products ----->
+    <script src="js/adds_product.js"></script>
+    <!----- -Main Js file Furniture ----->
+    <script src="js/Furniture_page.js"></script>
+    <!----- -Swiper ----->
+    <script src="js/swiper.js"></script>
+    <!----- -Swiper ----->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
