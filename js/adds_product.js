@@ -40,7 +40,7 @@ fetch("product.json")
           feature_prod_bot.innerHTML += `
             <div class="box_1 product">
               <div class="img">
-                <a href="http://127.0.0.1:5500/product.html?id=${product.id}" target="_blank">
+                <a href="https://abdallah-gmal.github.io/Furniture-Store/product.html?id=${product.id}" target="_blank">
                   <img src="${product.img}" alt="${product.name}" />
                 </a>
               </div>
