@@ -1719,6 +1719,9 @@ button {
     width: 35%;
     height: 120%;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .furniture_page .container .footer .footer_top .footer_middel_box .imge {
